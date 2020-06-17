@@ -71,6 +71,7 @@ body {
   margin: 10px 0px 10px 20px;
 }
 .input-style {
+  display: flex;
   margin: 20px 0px 40px 20px;
 }
 .languages-list {

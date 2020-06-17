@@ -38,7 +38,7 @@ function countryFiller(event) {
         console.log(data);
         return;
       } else if (data.length >= 10) {
-        error({
+        return error({
           title: 'Too many matches found.',
           text: 'Please, enter a more specific query!',
         });
